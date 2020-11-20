@@ -1,0 +1,88 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "User should be able to login successfully",
+        "description": "",
+        "id": "login-functionality;user-should-be-able-to-login-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2801135000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is on HomePage",
+            "match": {
+              "location": "LeaseAccelaratorSearchStepDef.user_is_on_HomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3849788100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user logins to page",
+            "match": {
+              "location": "LeaseAccelaratorSearchStepDef.user_logins_to_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 576106900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "enters valid Credentials",
+            "match": {
+              "location": "LeaseAccelaratorSearchStepDef.enters_valid_Credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3889447400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "clicks on the Login button",
+            "match": {
+              "location": "LeaseAccelaratorSearchStepDef.clicks_on_the_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 996202200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Successful login message should be displayed on the console window",
+            "match": {
+              "location": "LeaseAccelaratorSearchStepDef.successful_login_message_should_be_displayed_on_the_console_window()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Functionality",
+    "description": "",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "LA_login.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@UATTesting"
+      }
+    ]
+  }
+]
